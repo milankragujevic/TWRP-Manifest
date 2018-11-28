@@ -2,8 +2,6 @@
 
 `
 repo init -u https://github.com/milankragujevic/TWRP-manifest.git -b master
-`
-`
 repo sync 
 `
 
