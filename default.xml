@@ -27,7 +27,7 @@
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="lineage-15.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-14.1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" remote="aosp" />
@@ -38,7 +38,7 @@
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
-  <project path="external/jemalloc" name="LineageOS/android_external_jemalloc" groups="pdk" />
+  <project path="external/jemalloc" name="LineageOS/android_external_jemalloc" groups="pdk" revision="cm-14.1" />
   <project path="external/libcap" name="platform/external/libcap" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
@@ -88,8 +88,7 @@
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
-  
-  <include name="snippets/lineageos.xml" />
+  <include name="snippets/cm.xml" />
   
   <!-- Device -->
   <project path="device/alcatel/5059d" name="milankragujevic/android_device_alcatel_5059d" remote="github" revision="master" />
