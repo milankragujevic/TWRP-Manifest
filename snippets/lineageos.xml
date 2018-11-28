@@ -6,6 +6,6 @@
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
-  <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
 </manifest>
